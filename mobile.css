@@ -1,0 +1,88 @@
+
+@media(max-width: 600px){
+
+  .header-img{
+  display: block;
+  content: '';
+  background: url('images/bg-mobile-dark.jpg') no-repeat
+  center center/cover;
+  position: absolute;
+  height: 30%;
+  top: 0;
+  left: 0;
+}
+
+.header {
+  margin-left: -1rem;
+  text-align: center;
+  margin-top: 7rem;
+  z-index: 5;
+}
+
+.heading-primary {
+  margin-right: 41rem;
+  font-size: 3.6rem;
+  letter-spacing: 16px;
+  color: #fffffff6;
+}
+
+.icon-btn {
+  width: 30px;
+  height: 30px;
+}
+
+.text-items {
+  margin-left: 5rem;
+  margin-top: 5rem;
+  width: 85%;
+  border-radius: 8px;
+  padding: 2rem 0px;
+}
+
+.text-item-1 {
+  padding: 0;
+  font-size: 2.3rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.534);
+}
+
+.feature {
+  margin-left: 5rem;
+  margin-top: -16rem;
+  width: 85%;
+  border-radius: 8px;
+}
+
+.text {
+  padding: 2rem 0px;
+  font-size: 2.3rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.534);
+}
+
+.check-icon {
+  width: 3.8rem;
+  height: 3.8rem;
+  margin-right: 0;
+  margin-left: 2.5rem !important;
+  margin: 0.6rem;
+}
+
+.check-icon-2 {
+  width: 3.8rem;
+  height: 3.8rem;
+  margin-right: 0;
+  margin-left: 2.5rem !important;
+  margin: 0.6rem;
+}
+
+.last-child {
+  padding: 2.5rem;
+  font-size: 2.3rem;
+  font-weight: 400;
+  margin-left: 3rem;
+  margin-top: 0;
+  color: rgba(255, 255, 255, 0.534);
+}
+
+}
